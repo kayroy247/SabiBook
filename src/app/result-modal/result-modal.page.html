@@ -1,0 +1,45 @@
+
+<ion-content>
+<ion-grid *ngIf="getResult">
+  <ion-row>
+    <ion-col>
+     <h1 class="right">Correct!</h1> 
+
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col class="image-container">
+
+      <img src="../../assets/dicaprio.gif" alt="">
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    
+    <ion-col class="button-container" >
+      <ion-button (click)="closeModal()">OK</ion-button>
+    </ion-col>
+    
+  </ion-row>
+</ion-grid>
+<ion-grid *ngIf="!getResult">
+  <ion-row>
+    <ion-col>
+     <h1 class="wrong">Wrong!</h1> 
+
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col class="image-container">
+
+      <img src="../../assets/flogam.gif" alt="">
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    
+    <ion-col class="button-container" >
+      <ion-button (click)="closeModal()">OK</ion-button>
+    </ion-col>
+    
+  </ion-row>
+  </ion-grid>
+</ion-content>

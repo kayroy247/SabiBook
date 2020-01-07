@@ -2,3 +2,30 @@
   max-height: 35vh;
   overflow: hidden;
 }
+
+ion-grid{
+  background-color: #F1F8FF;
+  height: 100vh;
+}
+
+ion-card{
+  background: white;
+  box-shadow: none;
+  border-radius: 5px;
+}
+
+ion-list{
+  padding: 0;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+ion-item.green-answer{
+  --background: rgb(74, 238, 74);
+  color: white;
+}
+
+ion-item.red-answer{
+  --background: rgb(250, 29, 29);
+  color: white;
+}

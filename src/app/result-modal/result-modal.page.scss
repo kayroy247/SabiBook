@@ -1,0 +1,33 @@
+main{
+    background: #F1F8FF;
+  }
+
+  ion-modal.sc-ion-modal-md-h{
+    opacity: 0.7 !important;
+  }
+
+  .image-container{
+    opacity: 1;
+  }
+
+img{
+ width: 100%;
+
+}
+.wrong, .right{
+    color: red;
+    font-weight: bold;
+    font-size: 30;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.right{
+    color: green;
+}
+
+.button-container{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
